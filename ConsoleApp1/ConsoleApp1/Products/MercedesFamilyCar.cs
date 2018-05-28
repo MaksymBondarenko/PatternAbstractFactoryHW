@@ -11,7 +11,7 @@ namespace ConsoleApp1.Products
     {
         public override void Speed()
         {
-            Console.WriteLine("Speed=200 km");
+            Console.WriteLine("Speed Vito=180 km");
         }
     }
 }

@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clients\Driver.cs" />
     <Compile Include="Factories\AudiFactory.cs" />
     <Compile Include="Factories\CarFactory.cs" />
     <Compile Include="Factories\MercedesFactory.cs" />
