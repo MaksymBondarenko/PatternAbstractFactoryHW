@@ -16,7 +16,7 @@ namespace ConsoleApp1.Factories
 
         public override SportCar CreateSportCar()
         {
-            return new MercedesFamilyCar();
+            return new MercedesSportCar();
         }
     }
 }

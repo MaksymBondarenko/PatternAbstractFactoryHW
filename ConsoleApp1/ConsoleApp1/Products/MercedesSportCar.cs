@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Products
 {
-    public class MercedesSportCar : FamilyCar
+    public class MercedesSportCar : SportCar
     {
         public override void Speed()
         {

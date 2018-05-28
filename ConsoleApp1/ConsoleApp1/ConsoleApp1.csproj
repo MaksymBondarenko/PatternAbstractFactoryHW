@@ -42,11 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\AudiFactory.cs" />
+    <Compile Include="Factories\CarFactory.cs" />
+    <Compile Include="Factories\MercedesFactory.cs" />
+    <Compile Include="Products\AudiFamilyCar.cs" />
+    <Compile Include="Products\AudiSportCar.cs" />
+    <Compile Include="Products\FamilyCar.cs" />
+    <Compile Include="Products\MercedesFamilyCar.cs" />
+    <Compile Include="Products\MercedesSportCar.cs" />
+    <Compile Include="Products\SportCar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

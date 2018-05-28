@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Factories
 {
-    class AudiFactory
+    class AudiFactory: 
     {
+
     }
 }
